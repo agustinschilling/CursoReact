@@ -16,10 +16,11 @@ const Login = () => {
         auth.createUserWithEmailAndPassword(email,pass) // metodo para crear usuario
             .then(r => alert("Usuario Registrado"))
             .catch( e => {  // capturo errores
-                if(e.code == 'auth/invalid-email') {
+                console.log(e)
+                if(e.code === 'auth/invalid-email') {
                     setMsgError('Formato Email incorrecto')
                 }
-                if(e.code == 'auth/weak-password') {
+                if(e.code === 'auth/weak-password') {
                     setMsgError('La password debe tener 6 o mas caracteres')
                 }
             })
@@ -31,7 +32,7 @@ const Login = () => {
         auth.signInWithEmailAndPassword(email, pass)
             .then((r) => console.log(r))
             .catch( (err) => { // captura error
-                if(err.code == 'auth/wrong-password') {
+                if(err.code === 'auth/wrong-password') {
                     setMsgError('Password Incorrecta')
                 }
             })
