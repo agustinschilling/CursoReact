@@ -1,0 +1,11 @@
+// Proyecto basico en React
+
+// app creada con npx create-react-app crud-basico
+
+// limpiada
+
+// instalacion de dependencias
+
+// yarm add uniqid
+
+// yarn add bootstrap

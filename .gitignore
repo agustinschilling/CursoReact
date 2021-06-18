@@ -1,0 +1,70 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+### crud-basico
+# dependencies
+crud-basico/node_modules
+crud-basico/.pnp
+crud-basico/.pnp.js
+
+crud-basico/# testing
+crud-basico//coverage
+
+# production
+crud-basico/build
+
+# misc
+crud-basico/.DS_Store
+crud-basico/.env.local
+crud-basico/.env.development.local
+crud-basico/.env.test.local
+crud-basico/.env.production.local
+
+crud-basico/npm-debug.log*
+crud-basico/yarn-debug.log*
+crud-basico/yarn-error.log*
+
+### Rutas
+# dependencies
+rutas/node_modules
+rutas/.pnp
+rutas/.pnp.js
+
+# testing
+rutas/coverage
+
+rutas/# production
+rutas/build
+
+# misc
+rutas/.DS_Store
+rutas/.env.local
+rutas/.env.development.local
+rutas/.env.test.local
+rutas/.env.production.local
+
+rutas/npm-debug.log*
+rutas/yarn-debug.log*
+rutas/yarn-error.log*
+
+### FireBase Autenticacion
+# dependencies
+firebase-autenticacion/node_modules
+firebase-autenticacion/.pnp
+firebase-autenticacion/.pnp.js
+
+# testing
+firebase-autenticacion/coverage
+
+firebase-autenticacion/# production
+firebase-autenticacion/build
+
+# misc
+firebase-autenticacion/.DS_Store
+firebase-autenticacion/.env.local
+firebase-autenticacion/.env.development.local
+firebase-autenticacion/.env.test.local
+firebase-autenticacion/.env.production.local
+
+firebase-autenticacion/npm-debug.log*
+firebase-autenticacion/yarn-debug.log*
+firebase-autenticacion/yarn-error.log*

@@ -1,0 +1,9 @@
+
+Instalo bootstrap con 
+    yarn add bootstrap
+
+Instalo rutas con
+    yarn add react-router-dom
+
+Instalo axios
+    yarn add axios
