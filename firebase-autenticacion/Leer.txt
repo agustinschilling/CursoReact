@@ -1,3 +1,5 @@
 // Instalacion de dependencias
 
 // yarn add bootstrap firebase react-router-dom
+
+// falta ver la parde te Admin

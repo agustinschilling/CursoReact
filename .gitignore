@@ -68,3 +68,26 @@ firebase-autenticacion/.env.production.local
 firebase-autenticacion/npm-debug.log*
 firebase-autenticacion/yarn-debug.log*
 firebase-autenticacion/yarn-error.log*
+
+# firebase-firestore
+# dependencies
+firebase-firestore/node_modules
+firebase-firestore/.pnp
+firebase-firestore/.pnp.js
+
+# testing
+firebase-firestore/coverage
+
+# production
+firebase-firestore/build
+
+# misc
+firebase-firestore/.DS_Store
+firebase-firestore/.env.local
+firebase-firestore/.env.development.local
+firebase-firestore/.env.test.local
+firebase-firestore/.env.production.local
+
+firebase-firestore/npm-debug.log*
+firebase-firestore/yarn-debug.log*
+firebase-firestore/yarn-error.log*
